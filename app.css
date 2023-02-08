@@ -1,12 +1,12 @@
 body {
-  font-family: monospace;
-  font-size: x-small;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
   background-color: blanchedalmond;
   color: darkolivegreen;
 }
 
 h1 {
-  font-size: 11px;
+  font-size: 14px;
   color: rgb(117, 117, 181);
   text-align: center;
 }
