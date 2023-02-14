@@ -1,4 +1,15 @@
+.gridcontainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 100px 300px;
+  grid-template-areas:
+    "header header header"
+    "asideleft article asideright"
+    "footer footer footer";
+}
+
 body {
+  margin: 3%;
   font-family: "Courier New", Courier, monospace;
   font-size: medium;
   background-color: blanchedalmond;
